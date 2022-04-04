@@ -31,7 +31,7 @@
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="12dp"
                 android:fontFamily="@font/abril_fatface"
-                android:textColor="@color/black"
+                android:textColor="#800000"
                 android:textSize="26sp"
                 tools:text="TITTLE" />
 
@@ -40,8 +40,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:textColor="@color/white"
-                android:background="@drawable/gradient"
+                android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 tools:text="originalTitle" />
@@ -61,8 +60,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:textColor="@color/white"
-                android:background="#5433FF"
+                android:textColor="#8B4513"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 tools:text="director" />
@@ -71,9 +69,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:textColor="@color/white"
+                android:textColor="#8B4513"
                 android:textSize="20sp"
-                android:background="#20BDFF"
                 android:textStyle="bold"
                 tools:text="producer" />
             <TextView
@@ -82,6 +79,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:textColor="@color/black"
+                android:paddingStart="130dp"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 tools:text="release_date" />
